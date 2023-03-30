@@ -1,0 +1,17 @@
+
+  
+  #spin:after {
+    content:"";
+    color: "";
+    animation: spin 10s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    0% { content:" on trips"; color: green;}
+   
+    25% { content:" with your partner";color: red}
+  
+    50% { content:" with housemates";color: purple}
+  
+    98% { content: " with anyone"; color: green;}
+  }
