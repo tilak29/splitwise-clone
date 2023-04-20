@@ -4,6 +4,7 @@ import asset2 from '../../../assets/images/asset2.png';
 import asset3 from '../../../assets/images/asset3.png';
 import asset4 from '../../../assets/images/asset4.png';
 import asset5 from '../../../assets/images/asset5.png';
+import {Link} from "react-router-dom";
 
 function Second(){
     return(
@@ -47,9 +48,9 @@ function Second(){
                     Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!
                     </p>
                     <button>
-                    <a href="#" className="mx-auto px-10 py-3 bg-[#845ec1] hover:translate-y-1 text-white border border-white shadow font-mont font-semibold rounded sm-cta-button">
+                    <Link to="signup" className="mx-auto px-10 py-3 bg-[#845ec1] hover:translate-y-1 text-white border border-white shadow font-mont font-semibold rounded sm-cta-button">
                         Sign up
-                    </a>
+                    </Link>
                     </button>
                 </div>
             </div>

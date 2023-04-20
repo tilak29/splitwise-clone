@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.svg';
+import {Link} from "react-router-dom";
 
 function Home() {
   return (
@@ -11,14 +12,14 @@ function Home() {
          </a>
         <div className='flex items-center text-xs sm:text-sm md:text-normal font-normal'>
         <button>
-        <a href="#" className='block font-mont font-semibold text-[#2bc2a0]'>
+        <Link to="login" className='block font-mont font-semibold text-[#2bc2a0]'>
             Log in
-        </a>
+        </Link>
         </button>
         <button className='bg-[#2bc2a0] ml-4 w-24 h-12 rounded border-b-[3px] border-b-[#9a9d9e] hover:h-[46px] hover:border-b-0'> 
-            <a href='#' className='text-white font-mont font-semibold'>
+            <Link to='signup' className='text-white font-mont font-semibold'>
                 Sign up 
-            </a>
+            </Link>
         </button>
         </div>
      </div> 
